@@ -73,26 +73,16 @@ def imshow(img, text=None):
 
 if __name__ == '__main__':
     
-#    checkpoint_fp = "training_debug/logs/wpdc+shp+identification_1/_checkpoint_epoch_50.pth.tar"
-#    root_lfw = "/home/luoyao/Project_3d/compare-test/facenet-master/datasets/align_lfw"
-#    pairs_txt = "/home/luoyao/Project_3d/compare-test/facenet-master/data/pairs.txt"
-#    log_dir = "/home/luoyao/Project_3d/3D_face_solution/Siamese_network/recongnition"
-#
-#    tpr, fpr, accuracy, best_thresholds, dist, pairs_match, embeddings_l = sia_extract_feature_lfw(checkpoint_fp, root_lfw, pairs_txt, log_dir)
-
     ############# DDFA #####################
-    checkpoint_fp = "training_debug/logs/model/_checkpoint_epoch_50.pth.tar"
-    root_ddfa = "/home/luoyao/Project_3d/3D_face_solution/3DDFA_TPAMI/3DDFA_PAMI/train_aug_120x120" 
-    pairs_txt = "/home/luoyao/Project_3d/3D_face_solution/Siamese_network/recongnition/pairs_ddfa.txt"
+    checkpoint_fp = "training_debug/logs/model/_checkpoint_epoch_50.pth.tar"　　　　# model storage path
+    root_ddfa = "/home/luoyao/Project_3d/3D_face_solution/3DDFA_TPAMI/3DDFA_PAMI/train_aug_120x120"     # dataset path
+    pairs_txt = "/home/luoyao/Project_3d/3D_face_solution/Siamese_network/recongnition/pairs_ddfa.txt"   # test picture's name list
     log_dir = "training_debug/logs/contrastive_loss/recognition/result.png"
 
     tpr, fpr, accuracy, best_thresholds, embeddings_l, embeddings_r = sia_extract_feature_ddfa(checkpoint_fp, root_ddfa, pairs_txt, log_dir)
     mean_acc = np.mean(accuracy)
     print(mean_acc)
-
-#    tpr_, fpr_, acc = calculate_accuracy(0.15, dist, pairs_match)
-
-
+    
     ## abserve batch pairs-lfw data
 #    dataset = LFW_Pairs_Dataset(root_lfw, pairs_txt,
 #                              transform=transforms.Compose([transforms.ToTensor()]))
