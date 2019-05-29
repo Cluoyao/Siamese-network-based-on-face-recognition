@@ -17,8 +17,8 @@ Google Drive: https://drive.google.com/file/d/1r_ciJ1M0BSRTwndIBt42GlPFRv6CvvEP/
   year =         {2018}  
 }  
 # Experiments  
-Trained a model with default configuration (Restnet-50 for 50 epochs). The model can be downloaded from [BaiduYun](https://pan.baidu.com/s/1m0Kd8uPQfKebAyVICA4RPA)   keywords:atmq  
-Model accuracy is 0.9730000000000001  
+Trained a model with default configuration (Restnet-50 for 50 epochs). The model can be downloaded from [BaiduYun](https://pan.baidu.com/s/1m0Kd8uPQfKebAyVICA4RPA)   keywords: atmq  
+Model accuracy is: 0.9730000000000001  
 Results shown as follow (ROC Curve):  
 ![image](https://github.com/Cluoyao/Siamese-network-based-on-face-recognition/blob/master/images/result.png)  
 
