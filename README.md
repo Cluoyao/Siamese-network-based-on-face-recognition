@@ -1,5 +1,5 @@
 # Siamese-network-based-on-face-recognition
-Siamese network application
+Siamese network application (by Resnet-50)
 # Requirements
 .Python 3.7  
 .Pytorch 1.0
