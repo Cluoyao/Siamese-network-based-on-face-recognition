@@ -20,5 +20,6 @@ Google Drive: https://drive.google.com/file/d/1r_ciJ1M0BSRTwndIBt42GlPFRv6CvvEP/
 # Experiments
 Trained a model with default configuration (Restnet-50 for 50 epochs). The model can be downloaded from BaiduYun
 Results shown as follow:
+![image](https://github.com/Cluoyao/Siamese-network-based-on-face-recognition/images/result.png)
 
 TODO: use CISIA dataset training siamese network
