@@ -22,4 +22,4 @@ Model accuracy is: 0.9730000000000001
 Results shown as follow (ROC Curve):  
 ![image](https://github.com/Cluoyao/Siamese-network-based-on-face-recognition/blob/master/images/result.png)  
 
-TODO: use CISIA dataset training siamese network
+TODO: use CASIA dataset training siamese network
