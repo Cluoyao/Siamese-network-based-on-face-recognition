@@ -28,3 +28,4 @@ Results shown as follow (ROC Curve):
 ![image](https://github.com/Cluoyao/Siamese-network-based-on-face-recognition/blob/master/images/result.png)  
 
 TODO: Train the Siamese-network with CASIA datasets.
+TODO: Add usages
