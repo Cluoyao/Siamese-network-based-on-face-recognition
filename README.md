@@ -6,10 +6,15 @@ Siamese network application (by Resnet-50)
 # Training Dataset 
 BaiduYun: https://pan.baidu.com/s/19QNGst2E1pRKL7Dtx_L1MA  
 Google Drive: https://drive.google.com/file/d/17LfvBZFAeXt0ACPnVckfdrLTMHUpIQqE/view  
+@misc{3ddfa_cleardusk,  
+  author =       {Jianzhu Guo, Xiangyu Zhu and Zhen Lei},  
+  title =        {3DDFA},  
+  howpublished = {\url{https://github.com/cleardusk/3DDFA}},  
+  year =         {2018}  
+}  
 # Test Dataset  
 BaiduYun: https://pan.baidu.com/s/1DTVGCG5k0jjjhOc8GcSLOw  
 Google Drive: https://drive.google.com/file/d/1r_ciJ1M0BSRTwndIBt42GlPFRv6CvvEP/view  
-
 @misc{3ddfa_cleardusk,  
   author =       {Jianzhu Guo, Xiangyu Zhu and Zhen Lei},  
   title =        {3DDFA},  
